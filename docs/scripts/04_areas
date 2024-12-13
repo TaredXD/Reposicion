@@ -1,0 +1,7 @@
+CREATE TABLE ProtectedAreas 
+( AreaID INT PRIMARY KEY AUTO_INCREMENT, 
+AreaName VARCHAR(100),
+ Location VARCHAR(100),
+ SizeInHectares DECIMAL(10, 2), 
+DesignationDate DATE, 
+ProtectedStatus VARCHAR(50) );
